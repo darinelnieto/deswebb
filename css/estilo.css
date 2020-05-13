@@ -1,0 +1,124 @@
+/*tipografias*/
+/*font-family: 'Fjalla One', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+/*tabletas de colores*/
+/*includes*/
+html {
+  scroll-behavior: smooth;
+  transition: 4s;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #E3E1E0;
+  font-size: 2.5em;
+}
+
+.menu {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.lista a {
+  padding: 0 7px;
+  font-family: "Fjalla One", sans-serif;
+  color: #E3E1E0;
+  transition: 0.7s;
+}
+
+@media (min-width: 721px) {
+  .enlaces {
+    padding: 5px 30px;
+  }
+  .enlaces:hover {
+    text-decoration: none;
+    border-radius: 2px;
+    background: #159AB5;
+    padding: 5px 9px;
+    color: #E3E1E0;
+    font-size: 17px;
+  }
+
+  li {
+    padding: 0 7px;
+    transform: translateX(-25px);
+  }
+}
+@media (min-width: 1080px) {
+  .enlaces {
+    font-size: 20px;
+  }
+
+  li {
+    transform: translateX(-50px);
+  }
+
+  .logo {
+    font-size: 3em;
+  }
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", sans-serif;
+  color: #686869;
+}
+
+p, strong {
+  font-family: "Fjalla One", sans-serif;
+  color: #686869;
+}
+
+@media (max-width: 844px) {
+  #imgg {
+    display: none;
+  }
+}
+@media (min-width: 845px) {
+  #imggg {
+    display: none;
+  }
+
+  .d-block w-100 {
+    height: 600px;
+  }
+}
+@media (min-width: 1080px) {
+  #imggg {
+    display: none;
+  }
+
+  .d-block w-100 {
+    height: 320px;
+  }
+}
+.footer-container {
+  width: 100%;
+  background: #159AB5;
+}
+
+.footer-text {
+  color: #E3E1E0;
+}
+
+.mapa {
+  margin-top: 6px;
+  border-left: 1px solid rgba(227, 225, 224, 0.3);
+}
+
+#texto-footer {
+  border-left: 1px solid rgba(227, 225, 224, 0.3);
+}

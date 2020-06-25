@@ -122,3 +122,6 @@ p, strong {
 #texto-footer {
   border-left: 1px solid rgba(227, 225, 224, 0.3);
 }
+.d-block w-100{
+	max-height: 550px!important;
+}
